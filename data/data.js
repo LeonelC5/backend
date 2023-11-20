@@ -1,11 +1,11 @@
 const axios = require('axios');
 const { Pool } = require('pg');
 const pool = new Pool({
-    user: 'yesenia',
-    host: 'localhost',
-    database: 'datos',
-    password: '75280140',
-    port: 5432,
+    user: 'postgres',
+    host: 'roundhouse.proxy.rlwy.net',
+    database: 'railway',
+    password: '31bfgGC-gfFc*aC2Afa55g2Gc21F*B6f',
+    port: 58567,
   });
 
 const apiKey = 'AIzaSyDRf_LfTqh1MJ4wET-ATwCLAJ30EkJd8Og';
